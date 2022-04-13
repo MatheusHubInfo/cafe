@@ -17,7 +17,7 @@ html, body{
     background-color: darkgray;
 }
 header{
-    background-size: 230vh;
+    background-size: cover;
     background-image: url(imagens/background002.jpg);
     background-position: 70% 25%;
     background-repeat: no-repat;
@@ -51,6 +51,7 @@ header a:hover, footer a:hover {
     text-decoration: underline;
 }
 section{
+    font-family: var(--fonte3);
     padding-left: 30px;
     padding-top: 5vh;
     padding-bottom: 5vh;
@@ -69,10 +70,11 @@ section.paragrafo01 > p {
     color: white;
     width: 300px;
     border-radius: 10px;
+    box-shadow: inset 15px 15px 13px 0px rgba(0, 0, 0, 0.39);
 }
 section.paragrafo02{
     background-attachment: fixed;
-    background-size: 230vh;
+    background-size: cover;
     background-image: url(imagens/background005.jpg);
     background-repeat: no-repeat;
     background-position: center center;
@@ -100,10 +102,11 @@ section.paragrafo03 > p {
     color: white;
     width: 300px;
     border-radius: 10px;
+    box-shadow: inset 15px 15px 13px 0px rgba(0, 0, 0, 0.39);
 }
 section.paragrafo04{
     background-attachment: fixed;
-    background-size: 230vh;
+    background-size: cover;
     background-image: url(imagens/background003.jpg);
     background-repeat: no-repeat;
     background-position: 70% 34%;
@@ -131,6 +134,7 @@ section.paragrafo05 > p {
     color: white;
     width: 300px;
     border-radius: 10px;
+    box-shadow: inset 15px 15px 13px 0px rgba(0, 0, 0, 0.39);
 }
 footer{
     background-color: black;
