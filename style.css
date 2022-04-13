@@ -50,6 +50,20 @@ header a, footer a{
 header a:hover, footer a:hover {
     text-decoration: underline;
 }
+.button{
+    color: white;
+    padding-left: 500px;
+    padding-bottom: 2vh;
+    padding-top: 2vh;
+    background-color: rgba(0, 0, 0, 0.74);
+    width: 160vh;
+}
+#cordel{
+    padding-right: 5vh;
+}
+#filmes{
+    padding-left: 5vh;
+}
 section{
     font-family: var(--fonte3);
     padding-left: 30px;
@@ -137,9 +151,29 @@ section.paragrafo05 > p {
     box-shadow: inset 15px 15px 13px 0px rgba(0, 0, 0, 0.39);
 }
 footer{
-    background-color: black;
-    color: white;
+    line-height: 25px;
     padding-top: 3vh;
     padding-bottom: 3vh;
+    background-color: black;
+    color: white;
     text-align: center;
+}
+footer > p {
+    font-family: var(--fonte1);
+    text-align: center;
+    padding: 10px;
+    font-variant: small-caps;
+    font-size: 14px;
+}
+button{
+    background: #069cc2;
+    border-radius: 6px;
+    padding: 15px;
+    cursor: pointer;
+    color: #fff;
+    border: none;
+    font-size: 16px;
+}
+#linkedin{
+    color: rgb(176, 176, 245);
 }
