@@ -55,8 +55,8 @@ header a:hover, footer a:hover {
     padding-left: 500px;
     padding-bottom: 2vh;
     padding-top: 2vh;
-    background-color: rgba(0, 0, 0, 0.74);
-    width: 160vh;
+    background-color: black;
+    width: 129vh;
 }
 #cordel{
     padding-right: 5vh;
@@ -151,12 +151,15 @@ section.paragrafo05 > p {
     box-shadow: inset 15px 15px 13px 0px rgba(0, 0, 0, 0.39);
 }
 footer{
-    line-height: 25px;
-    padding-top: 3vh;
-    padding-bottom: 3vh;
     background-color: black;
     color: white;
-    text-align: center;
+    padding-top: 3vh;
+}
+#linkedin{
+    padding-right: 5vh;
+}
+#github{
+    padding-left: 5vh;
 }
 footer > p {
     font-family: var(--fonte1);
@@ -173,7 +176,4 @@ button{
     color: #fff;
     border: none;
     font-size: 16px;
-}
-#linkedin{
-    color: rgb(176, 176, 245);
 }
