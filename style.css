@@ -53,16 +53,10 @@ header a:hover, footer a:hover {
 }
 .button{
     color: white;
-    padding-left: 440px;
+    padding-left: 30px;
     padding-bottom: 2vh;
     padding-top: 2vh;
     background-color: black;
-}
-#cordel{
-    padding-right: 5vh;
-}
-#filmes{
-    padding-left: 5vh;
 }
 section{
     font-family: var(--fonte3);
